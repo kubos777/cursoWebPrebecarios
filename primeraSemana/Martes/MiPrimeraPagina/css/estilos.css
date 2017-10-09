@@ -1,0 +1,74 @@
+.titulos-principales{
+    margin: 0px; /*No va a tener margen*/
+    background-color:  black;
+  }
+
+h1{
+  color: green; 
+}
+.menu-navegacion a{
+  display: inline-block; /*muestra elementos en linea y bloque*/
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: 0px 10px; /*superior, derecha, abajo, izq*/
+  background: gray;
+  border: none;
+  color: pink;
+  text-align: center;/*Texto alineado y centrado*/
+  font-size: 12px; /*Tamaño de la letra*/
+
+}
+a{
+  text-decoration: none;
+}
+.menu-navegacion{
+  text-align: center;
+}
+li:hover a{ /*cuando pasemos el cursor sobre la lista*/
+  background: #58FAD0;
+}
+.footer{
+  padding: 20px;
+  height: 60px;
+  background: gray;
+  bottom: 0px; /*Para que esté pegado hasta abajo de la página*/
+}
+
+li{
+  display: inline;
+
+}
+
+ul{
+  list-style: none;
+}
+
+.informacion-personal{
+  border: 1px solid #ccc;
+  width: 30%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+}
+h1,h2{
+  text-align: center; 
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #F3E2A9;
+}
+
+table, th, td{
+  border: 1px dotted black;
+  border-collapse: collapse;
+  text-align: justify;
+
+}
+th, td{
+  padding: 20px;
+}
