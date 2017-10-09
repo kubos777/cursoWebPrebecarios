@@ -1,0 +1,49 @@
+/*Selector de hijos*/
+p>span{
+	color: red;
+}
+div>h2{
+	text-align: right;
+}
+/*Selector de adyacencia*/
+h4{
+	color:blue;
+}
+h3+h4{
+	margin-left: 50px;
+}
+p+p{
+	text-indent: 1.5em;
+}
+/*Selector de atributos*/
+.nada{
+
+}
+a[class]{
+	color: green;
+}
+
+a[class="nada"]{
+	color:orange;
+}
+a[href="www.google.com.mx"]{
+	color: purple;
+}
+.otraClase{
+
+}
+a[class~="otraClase"]{
+	margin-left: 200px;
+}
+
+*[lang=en]{
+	margin: 100px;
+	color: brown;
+	text-align: center;
+}
+
+*[lang|=es]{
+	margin: 100px;
+	color: gray;
+	text-align: right;
+}
