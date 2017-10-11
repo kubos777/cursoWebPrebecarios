@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<title>Ingresar</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar" style="background: black;">
+			<ul>
+				<li><a href="#">Ingresar</a></li>
+				<li><a href="registrar.html">Registrar usuario</a></li>
+				<li><a href="borrar.html">Borrar usuario</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<form action="ingresar.php" method="POST">
+			<h4>Ingresa tu nombre de usuario:</h4>
+			<input type="text" name="nombre" placeholder="Alguien" required>
+			<h4>Ingresa tu contraseña:</h4>
+			<input type="password" name="contrasena" placeholder="Contraseña" required>
+			<input type="submit" class="btn" style="background: black;" value="Ingresar">
+		</form>
+	</div>
+</body>
+</html>

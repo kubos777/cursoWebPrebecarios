@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<title>Sistema de administracions de Tiendas</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar" style="background: black;">
+			<ul>
+				<li><a href="index.html">Ingresar</a></li>
+				<li><a href="#">Registrar usuario</a></li>
+				<li><a href="borrar.html">Borrar usuario</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<br>
+		<br>
+		<br>
+		<form action="registrar.php" method="POST">
+			<h4>Ingresa tu nombre:</h2>
+			<input type="text" name="nombre" placeholder="Nombre" required>
+			<h4>Ingresa tu contraseña: </h2>
+			<input type="password" name="contrasena" placeholder="Contraseña" required>
+			<h4>Confirma tu contraseña: </h2>
+			<input type="password" name="contrasena2" placeholder="Contraseña" required>
+			<h4>Ingresa tu correo:</h2>
+			<input type="email" name="correo" placeholder="ejemplo@gmial.com" required>
+			<input type="submit" class="btn" value="Registar" style="background: black;">
+		</form>
+	</div>
+</body>
+</html>
